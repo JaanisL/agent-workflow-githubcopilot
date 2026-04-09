@@ -1,0 +1,14 @@
+{
+  "name": "devops-pipelines-app",
+  "version": "1.0.0",
+  "description": "Simple Node.js app for CI/CD pipeline testing",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "private": true,
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
