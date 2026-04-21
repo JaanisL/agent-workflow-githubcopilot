@@ -1,0 +1,29 @@
+# Node.js Docker Ignore File
+
+# Prevent npm modules from being added to the container
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+logs/
+*.log
+
+# Dependency directories
+jspm_packages/
+
+# Testing
+*.spec.js
+*.test.js
+
+# Environment variables
+.env
+
+# Coverage
+coverage/
+
+# Dockerfile
+Dockerfile
+
+# Ignore any other file you’d need to exclude from your Docker image.
